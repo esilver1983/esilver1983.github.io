@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sangyoung Eun, MBA student</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+  <div id="wrapper">
+    <h1>Sangyoung Eun</h1>
+    <p>
+      <img src="sangyoung.jpg">
+    </p>
+    <h2>MBA Student</h2>
+    <h3>Evanston, IL</h3>
+    <section>
+      <h4>Connect With Me</h4>
+      <ul>
+        <li><a href="Summary.html">Hobby</a></li>
+      </ul>
+    </section>
+    <section>
+      <h4>Summary</h4>
+      <p>
+        Sangyoung Eun was born in Seoul, South Korea. After graduated Seoul national university, he started to work Doosan corporation, one of the biggest conglomerates in Korea and came to US for Kellogg MBA. Sangyoung married 2013 and is staying at Evanston. 
+      </p>
+    </section>
+    <section>
+      <h4>Experience</h4>
+      <section>
+        <h5>US army, Personnel</h5>
+        <h5>Doosan heavy industries and construction</h5>
+        <h5>Mckinsey and Company </h5>
+      </section>
+      <section>
+      <h4>Family</h4>
+       <h5>Wife, Sungeun Kim</h5>
+      <img src="honeymoon.jpg">
+      </Section>
+    <section>
+      <h4>Skills</h4>
+      <ul>
+        <li>Consulting</li>
+        <li>Heavy industry</li>
+      </ul>
+    </section>
+    <section>
+      <h4>Hobbies</h4>
+      <ul>
+        <li>Golf</li>
+        <li>Running</li>
+        <li>Drinking!!!</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>

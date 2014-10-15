@@ -38,7 +38,7 @@ img {
 /* Set the font family for the whole document, and add a background image */
 body {
 	font-family: 'Droid sans','pachifico';
-	background-image: url(Bakground2.jpg);
+	background-image: url(bakground2.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;

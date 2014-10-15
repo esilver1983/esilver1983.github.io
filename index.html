@@ -1,57 +1,132 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sangyoung Eun, MBA student</title>
+  <title>Bootstrap Me</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="style sheet" href="style3.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div id="wrapper">
-    <h1>Sangyoung Eun</h1>
+ <div class="container">
+ <div class jumbotron text-right">
+
+ <ul class="nav nav-tabs" role="tablist">
+  <li class="active"><a href="#">Menu & Contact</a></li>
+  <li><a href="#">Where we get our fresh fruits</a></li>
+  <li><a href="#">About Us</a></li>
+</ul>
+
+ <h1> New Fresh Juice COMMING!!!</h1>
+
     <p>
-      <img src="sangyoung.jpg">
+      <img src="fresh juice.jpg" class="img-rounded">
     </p>
-    <h2>MBA Student</h2>
-    <h3>Evanston, IL</h3>
-    <section>
-      <h4>Connect With Me</h4>
-      <ul>
-        <li><a href="Summary.html">Hobby</a></li>
+ </div>
+ <a herf="#" class="btn btn-success">Orange</a>
+  <a herf="#" class="btn btn-primary">Tomato</a>
+   <a herf="#" class="btn btn-info">Pineapple</a>
+    <a herf="#" class="btn btn-warning">Apple</a>
+  <a herf="#" class="btn btn-danger">Carrot</a>
+
+   <div class="row">
+ <dic class="col-sm-12">
+ <h1>Menu</h1>
+ <table class="table table-striped">
+ <tr>
+ <th>Menu</th>
+ <th>Price </th>
+ </tr>
+  <tr>
+ <th>Orange</th>
+ <th>$7 </th>
+ </tr>
+  <tr>
+ <th>Tomato</th>
+ <th>$6 </th>
+ </tr>
+   <tr>
+ <th>Pineapple</th>
+ <th>$5 </th>
+ </tr>
+  <tr>
+ <th>Apple</th>
+ <th>$9 </th>
+ </tr>
+   <tr>
+ <th>Carrot</th>
+ <th>$7 </th>
+ </tr>
+ </table>
+   <div class="col-sm-6 hidden-sm">
+ <h1>Useful information</h1>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Recruiting</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">News</a></li>
+        <li><a href="#">Suggestions</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Investments <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Renting location </a></li>
+            <li><a href="#">Franchise</a></li>
+            <li><a href="#">Investment to our company</a></li>
+          </ul>
+        </li>
       </ul>
-    </section>
-    <section>
-      <h4>Summary</h4>
-      <p>
-        Sangyoung Eun was born in Seoul, South Korea. After graduated Seoul national university, he started to work Doosan corporation, one of the biggest conglomerates in Korea and came to US for Kellogg MBA. Sangyoung married 2013 and is staying at Evanston. 
-      </p>
-    </section>
-    <section>
-      <h4>Experience</h4>
-      <section>
-        <h5>US army, Personnel</h5>
-        <h5>Doosan heavy industries and construction</h5>
-        <h5>Mckinsey and Company </h5>
-      </section>
-      <section>
-      <h4>Family</h4>
-       <h5>Wife, Sungeun Kim</h5>
-      <img src="honeymoon.jpg">
-      </Section>
-    <section>
-      <h4>Skills</h4>
-      <ul>
-        <li>Consulting</li>
-        <li>Heavy industry</li>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
       </ul>
-    </section>
-    <section>
-      <h4>Hobbies</h4>
-      <ul>
-        <li>Golf</li>
-        <li>Running</li>
-        <li>Drinking!!!</li>
-      </ul>
-    </section>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<ul></ul>
+
+
+<h1> Member Sign-In </h1>
+   <form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
   </div>
-</body>
-</html>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> New member?
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Sign-In</button>
+</form>
+
+ <h3> Contact </h3>
+  <h3> Sangyoung Eun </h3>
+  <h3> Phone 224.410.1353 </h3>
+ </div>
+
+ </div>
+  <div class="alert alert-success" role="alert">
+  <a href="#" class="alert-link"> We alway think about fresh juice & Your health LIFE</a>
+</div>
