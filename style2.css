@@ -53,12 +53,7 @@ a:hover {
 	color: purple;
 }
 /* Make the content of the page "sit on top of" the background */
-div#wrapper{
-	background-color: white;
-	width: 2000px;
-	margin: 10px auto;
-	padding: 1	px;
-}
+
 /* Make it so you can see the footer and center it */
 div#footer {
 	color: red;
